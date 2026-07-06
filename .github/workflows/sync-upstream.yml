@@ -10,7 +10,8 @@ on:
         required: false
         type: string
 
-permissions: write-all
+permissions:
+  contents: write
 
 jobs:
   sync:
