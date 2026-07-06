@@ -10,10 +10,7 @@ on:
         required: false
         type: string
 
-permissions:
-  contents: write
-  actions: write  # 替代 workflows
-  checks: write   # 替代 workflows
+permissions: write-all
 
 jobs:
   sync:
